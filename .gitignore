@@ -1,0 +1,14 @@
+# 1. Virtual Environment (Heavy, like node_modules)
+venv/
+
+# 2. Environment Variables (SECURITY RISK - Keep your API keys secret!)
+.env
+
+# 3. Python Compiled Files (Junk files Python creates automatically)
+__pycache__/
+*.py[cod]
+
+# 4. Your Vector Database (ChromaDB)
+# You usually don't want to commit the actual database files, just the code.
+db/
+chroma_db/
