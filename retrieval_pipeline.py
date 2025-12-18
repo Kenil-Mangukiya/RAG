@@ -14,7 +14,7 @@ db = Chroma(
     collection_metadata = {"hnsw:space": "cosine"}
 )
 
-query = "In which year google was found?"
+query = "What was the vision behind founding SpaceX?"
 
 retriever = db.as_retriever(search_kwargs = {"k": 3})
 
