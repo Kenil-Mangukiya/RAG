@@ -35,6 +35,7 @@ Documents:
 Please provide a clear, helpful answer using only the information from these documents.if you can't find the answer in the in the documents, say "I don't have enough information to answer that question based on the provided documents
 """
 
+
 model = ChatOpenAI(model="gpt-4o")
 
 messages = [
