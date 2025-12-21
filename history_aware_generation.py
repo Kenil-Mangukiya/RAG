@@ -38,8 +38,11 @@ def ask_question(user_question):
     print(f"Found {len(docs)} relevant docuements : ")
 
     for i, doc in enumerate(docs, 1):
+        print(f"doc in loop : {doc}")
         lines = doc.page_content.split("\n")[:2]
+        print(f"lines are : {lines}")
         preview = "\n".join(lines)
+        print(f"Preview is : {preview}")
         print(f"   Doc {i}: {preview}...   ")
 
     combined_input = f"""Based on following documents, please answer this question: {user_question}
