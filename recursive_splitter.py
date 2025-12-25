@@ -11,7 +11,7 @@ This longer paragraph line is intentionally written to reach a very specific cha
 # split = CharacterTextSplitter(
 #     chunk_size = 100,
 #     chunk_overlap = 0,
-#     separator = " "
+#     separator = "\n\n"
 # )
 
 # result = split.split_text(text_paragraph)
